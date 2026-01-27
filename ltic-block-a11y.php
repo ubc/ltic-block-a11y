@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-require_once plugin_dir_path( __FILE__ ) . 'src/block-a11y/heading/render.php';
+require_once plugin_dir_path( __FILE__ ) . 'src/block-a11y/heading/block.php';
 
 /**
  * Register and Enqueue the JavaScript which allows us to add accessibility enhancements to blocks.
