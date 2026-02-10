@@ -1,0 +1,18 @@
+.editor-styles-wrapper {
+    .ltic-screen-reader-text {
+        border: 2px dashed black;
+        padding: 1px;
+    }
+}
+
+body:not(.wp-admin) .ltic-screen-reader-text {
+    word-wrap: normal !important;
+    border: 0;
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
